@@ -12,6 +12,10 @@ outline: solid red;
     padding-bottom: 25px;
 }
 
+.header-portfolio {
+    border-bottom: solid #ECECEC;
+}
+
 .header-container {
     display: flex;
     align-items: center;
@@ -67,6 +71,50 @@ letter-spacing: 0.28px;
 }
 .header-contact-link:hover { color: #2196F3;
 
+}
+.buttons {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+
+
+.buttons-list {
+    display: flex;
+    gap: 8px;
+justify-content: center;
+}
+
+.buttons-element {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.content {
+padding-bottom: 94px;
+}
+
+.content-info {
+    padding-left: 24px;
+    padding-top: 20px;
+}
+
+.content-list {
+flex-wrap: wrap;
+display: flex;
+gap: 25px;
+justify-content: center;
+}
+
+.content-item {
+    padding-bottom: 20px;
+    border: 1px solid #EEE;
+background: #FFF;
+}
+
+.content-title {
 }
 
 .business {
